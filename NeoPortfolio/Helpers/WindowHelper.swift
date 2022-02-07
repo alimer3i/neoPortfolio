@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import UIKit
+
+final class WindowHelper {
+    public var window: UIWindow
+    static let shared = WindowHelper()
+    
+    private init() {
+        window = AppDelegate.shared.window!
+    }
+}

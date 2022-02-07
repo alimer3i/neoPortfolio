@@ -6,3 +6,6 @@
 //
 
 import Foundation
+struct Domain {
+    static var liveURL = "http://localhost:3000"
+}

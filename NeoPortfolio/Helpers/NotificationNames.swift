@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+extension Notification.Name {
+    static let internetConnectionBack = Notification.Name("internetConnectionBack")
+    static let internetConnectionLost = Notification.Name("internetConnectionLost")
+    static let portfolioUpdated = Notification.Name("portfolioUpdated")
+    static let optionsUpdated = Notification.Name("optionsUpdated")
+    static let historicalUpdated = Notification.Name("historicalUpdated")
+
+}

@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396FD3AF514A080185F56BFA /* Pods_NeoPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E95BDDDF7F8C42BA77D4153 /* Pods_NeoPortfolio.framework */; };
+		A018686E27AEC58B004B2A25 /* PortfolioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A018686C27AEC58B004B2A25 /* PortfolioTableViewCell.swift */; };
+		A018686F27AEC58B004B2A25 /* PortfolioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A018686D27AEC58B004B2A25 /* PortfolioTableViewCell.xib */; };
+		A018687127AEC7F4004B2A25 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A018687027AEC7F4004B2A25 /* UIViewExtension.swift */; };
 		A059243427AE792F00F6E609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059243327AE792F00F6E609 /* AppDelegate.swift */; };
-		A059243627AE792F00F6E609 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059243527AE792F00F6E609 /* SceneDelegate.swift */; };
-		A059243827AE792F00F6E609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059243727AE792F00F6E609 /* ViewController.swift */; };
 		A059243B27AE792F00F6E609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A059243927AE792F00F6E609 /* Main.storyboard */; };
 		A059243E27AE792F00F6E609 /* NeoPortfolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A059243C27AE792F00F6E609 /* NeoPortfolio.xcdatamodeld */; };
 		A059244027AE793400F6E609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A059243F27AE793400F6E609 /* Assets.xcassets */; };
@@ -17,6 +19,43 @@
 		A059244E27AE793500F6E609 /* NeoPortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059244D27AE793500F6E609 /* NeoPortfolioTests.swift */; };
 		A059245827AE793500F6E609 /* NeoPortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059245727AE793500F6E609 /* NeoPortfolioUITests.swift */; };
 		A059245A27AE793500F6E609 /* NeoPortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059245927AE793500F6E609 /* NeoPortfolioUITestsLaunchTests.swift */; };
+		A059249027AEA72100F6E609 /* PortfolioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059246E27AEA72100F6E609 /* PortfolioAPI.swift */; };
+		A059249927AEA72100F6E609 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059247727AEA72100F6E609 /* ServiceLayer.swift */; };
+		A059249A27AEA72100F6E609 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059247827AEA72100F6E609 /* URLRequestBuilder.swift */; };
+		A059249B27AEA72100F6E609 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059247927AEA72100F6E609 /* APIManager.swift */; };
+		A059249D27AEA72100F6E609 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059247B27AEA72100F6E609 /* RequestInterceptor.swift */; };
+		A059249E27AEA72100F6E609 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059247C27AEA72100F6E609 /* NetworkLogger.swift */; };
+		A059249F27AEA72100F6E609 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059247D27AEA72100F6E609 /* NetworkReachability.swift */; };
+		A05924A027AEA72100F6E609 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059247F27AEA72100F6E609 /* Box.swift */; };
+		A05924AA27AEA72100F6E609 /* OptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A059248A27AEA72100F6E609 /* OptionsModel.swift */; };
+		A05924B027AEB5A000F6E609 /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924AF27AEB5A000F6E609 /* Domain.swift */; };
+		A05924B327AEB76D00F6E609 /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924B227AEB76D00F6E609 /* NotificationNames.swift */; };
+		A05924B527AEB7C600F6E609 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924B427AEB7C600F6E609 /* UIApplicationExtension.swift */; };
+		A05924BD27AEBA3600F6E609 /* ScreenLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924B727AEBA3500F6E609 /* ScreenLoader.swift */; };
+		A05924BE27AEBA3600F6E609 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924B827AEBA3600F6E609 /* Storyboarded.swift */; };
+		A05924BF27AEBA3600F6E609 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924BA27AEBA3600F6E609 /* BaseViewController.swift */; };
+		A05924C027AEBA3600F6E609 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924BB27AEBA3600F6E609 /* AppColors.swift */; };
+		A05924C127AEBA3600F6E609 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924BC27AEBA3600F6E609 /* BaseVM.swift */; };
+		A05924C327AEBD1D00F6E609 /* WindowHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924C227AEBD1D00F6E609 /* WindowHelper.swift */; };
+		A05924C627AEBDDD00F6E609 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924C527AEBDDD00F6E609 /* PortfolioViewController.swift */; };
+		A05924C827AEBE2700F6E609 /* PortfolioVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924C727AEBE2700F6E609 /* PortfolioVM.swift */; };
+		A05924CA27AEBF7700F6E609 /* PortfolioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05924C927AEBF7700F6E609 /* PortfolioModel.swift */; };
+		A0D4EE3F27AFBF7800E07FDA /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EE3E27AFBF7800E07FDA /* EducationViewController.swift */; };
+		A0D4EE4127AFBF8500E07FDA /* EducationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EE4027AFBF8500E07FDA /* EducationVM.swift */; };
+		A0D4EE4327AFC13500E07FDA /* Education.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D4EE4227AFC13500E07FDA /* Education.storyboard */; };
+		A0D4EE4527AFE8C100E07FDA /* HistoricalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EE4427AFE8C100E07FDA /* HistoricalModel.swift */; };
+		A0D4EE4727AFF49A00E07FDA /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EE4627AFF49A00E07FDA /* DateHelper.swift */; };
+		A0D4EE4B27AFFFA000E07FDA /* PortfolioRealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EE4A27AFFFA000E07FDA /* PortfolioRealmHelper.swift */; };
+		A0D4EE4E27B0025900E07FDA /* NetworkServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EE4D27B0025900E07FDA /* NetworkServicesManager.swift */; };
+		A0D4EE5027B00FDA00E07FDA /* OptionsRealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EE4F27B00FDA00E07FDA /* OptionsRealmHelper.swift */; };
+		A0D4EE5227B010CA00E07FDA /* HistoricalRealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EE5127B010CA00E07FDA /* HistoricalRealmHelper.swift */; };
+		A0DA05B227AEDBC400AD99AA /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA05B127AEDBC400AD99AA /* OptionsViewController.swift */; };
+		A0DA05B427AEDC3A00AD99AA /* OptionsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA05B327AEDC3A00AD99AA /* OptionsVM.swift */; };
+		A0DA05B627AEDEE600AD99AA /* Options.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DA05B527AEDEE600AD99AA /* Options.storyboard */; };
+		A0DA05BA27AF166300AD99AA /* OptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA05B827AF166300AD99AA /* OptionCollectionViewCell.swift */; };
+		A0DA05BB27AF166300AD99AA /* OptionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DA05B927AF166300AD99AA /* OptionCollectionViewCell.xib */; };
+		AC59150DE80C35646BF90A15 /* Pods_NeoPortfolio_NeoPortfolioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208251314FE8C8E5C690427E /* Pods_NeoPortfolio_NeoPortfolioUITests.framework */; };
+		E90B6CD71988B57560C6C722 /* Pods_NeoPortfolioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9801EA2BB02AEC9E7D3A0F96 /* Pods_NeoPortfolioTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +76,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		208251314FE8C8E5C690427E /* Pods_NeoPortfolio_NeoPortfolioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoPortfolio_NeoPortfolioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E95BDDDF7F8C42BA77D4153 /* Pods_NeoPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoPortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F36724BB51B0E8686673167 /* Pods-NeoPortfolio-NeoPortfolioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoPortfolio-NeoPortfolioUITests.release.xcconfig"; path = "Target Support Files/Pods-NeoPortfolio-NeoPortfolioUITests/Pods-NeoPortfolio-NeoPortfolioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		596EC192E0B0CE5A2C5F13BE /* Pods-NeoPortfolioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoPortfolioTests.release.xcconfig"; path = "Target Support Files/Pods-NeoPortfolioTests/Pods-NeoPortfolioTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A5F054BCAAFFF1453FCCB11 /* Pods-NeoPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoPortfolio.debug.xcconfig"; path = "Target Support Files/Pods-NeoPortfolio/Pods-NeoPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
+		8502F575C2AF4259BD07C66C /* Pods-NeoPortfolio-NeoPortfolioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoPortfolio-NeoPortfolioUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeoPortfolio-NeoPortfolioUITests/Pods-NeoPortfolio-NeoPortfolioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88E99E7417F725D05DF3E081 /* Pods-NeoPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoPortfolio.release.xcconfig"; path = "Target Support Files/Pods-NeoPortfolio/Pods-NeoPortfolio.release.xcconfig"; sourceTree = "<group>"; };
+		9801EA2BB02AEC9E7D3A0F96 /* Pods_NeoPortfolioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoPortfolioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A018686C27AEC58B004B2A25 /* PortfolioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTableViewCell.swift; sourceTree = "<group>"; };
+		A018686D27AEC58B004B2A25 /* PortfolioTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortfolioTableViewCell.xib; sourceTree = "<group>"; };
+		A018687027AEC7F4004B2A25 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		A059243027AE792F00F6E609 /* NeoPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A059243327AE792F00F6E609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A059243527AE792F00F6E609 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A059243727AE792F00F6E609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A059243A27AE792F00F6E609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A059243D27AE792F00F6E609 /* NeoPortfolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeoPortfolio.xcdatamodel; sourceTree = "<group>"; };
 		A059243F27AE793400F6E609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +99,42 @@
 		A059245327AE793500F6E609 /* NeoPortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoPortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A059245727AE793500F6E609 /* NeoPortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoPortfolioUITests.swift; sourceTree = "<group>"; };
 		A059245927AE793500F6E609 /* NeoPortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoPortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A059246E27AEA72100F6E609 /* PortfolioAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioAPI.swift; sourceTree = "<group>"; };
+		A059247727AEA72100F6E609 /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		A059247827AEA72100F6E609 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
+		A059247927AEA72100F6E609 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		A059247B27AEA72100F6E609 /* RequestInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestInterceptor.swift; sourceTree = "<group>"; };
+		A059247C27AEA72100F6E609 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		A059247D27AEA72100F6E609 /* NetworkReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		A059247F27AEA72100F6E609 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		A059248A27AEA72100F6E609 /* OptionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsModel.swift; sourceTree = "<group>"; };
+		A05924AF27AEB5A000F6E609 /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
+		A05924B227AEB76D00F6E609 /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		A05924B427AEB7C600F6E609 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		A05924B727AEBA3500F6E609 /* ScreenLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenLoader.swift; sourceTree = "<group>"; };
+		A05924B827AEBA3600F6E609 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		A05924BA27AEBA3600F6E609 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A05924BB27AEBA3600F6E609 /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		A05924BC27AEBA3600F6E609 /* BaseVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		A05924C227AEBD1D00F6E609 /* WindowHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowHelper.swift; sourceTree = "<group>"; };
+		A05924C527AEBDDD00F6E609 /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		A05924C727AEBE2700F6E609 /* PortfolioVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioVM.swift; sourceTree = "<group>"; };
+		A05924C927AEBF7700F6E609 /* PortfolioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioModel.swift; sourceTree = "<group>"; };
+		A0D4EE3E27AFBF7800E07FDA /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		A0D4EE4027AFBF8500E07FDA /* EducationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationVM.swift; sourceTree = "<group>"; };
+		A0D4EE4227AFC13500E07FDA /* Education.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Education.storyboard; sourceTree = "<group>"; };
+		A0D4EE4427AFE8C100E07FDA /* HistoricalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalModel.swift; sourceTree = "<group>"; };
+		A0D4EE4627AFF49A00E07FDA /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		A0D4EE4A27AFFFA000E07FDA /* PortfolioRealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioRealmHelper.swift; sourceTree = "<group>"; };
+		A0D4EE4D27B0025900E07FDA /* NetworkServicesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServicesManager.swift; sourceTree = "<group>"; };
+		A0D4EE4F27B00FDA00E07FDA /* OptionsRealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsRealmHelper.swift; sourceTree = "<group>"; };
+		A0D4EE5127B010CA00E07FDA /* HistoricalRealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalRealmHelper.swift; sourceTree = "<group>"; };
+		A0DA05B127AEDBC400AD99AA /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		A0DA05B327AEDC3A00AD99AA /* OptionsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsVM.swift; sourceTree = "<group>"; };
+		A0DA05B527AEDEE600AD99AA /* Options.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Options.storyboard; sourceTree = "<group>"; };
+		A0DA05B827AF166300AD99AA /* OptionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCollectionViewCell.swift; sourceTree = "<group>"; };
+		A0DA05B927AF166300AD99AA /* OptionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionCollectionViewCell.xib; sourceTree = "<group>"; };
+		F81B929FA6E38332BF60D0B4 /* Pods-NeoPortfolioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoPortfolioTests.debug.xcconfig"; path = "Target Support Files/Pods-NeoPortfolioTests/Pods-NeoPortfolioTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396FD3AF514A080185F56BFA /* Pods_NeoPortfolio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90B6CD71988B57560C6C722 /* Pods_NeoPortfolioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +158,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC59150DE80C35646BF90A15 /* Pods_NeoPortfolio_NeoPortfolioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DE2AFF81D565FCFE45042E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E95BDDDF7F8C42BA77D4153 /* Pods_NeoPortfolio.framework */,
+				208251314FE8C8E5C690427E /* Pods_NeoPortfolio_NeoPortfolioUITests.framework */,
+				9801EA2BB02AEC9E7D3A0F96 /* Pods_NeoPortfolioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A018686B27AEC55C004B2A25 /* PortfolioTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A018686C27AEC58B004B2A25 /* PortfolioTableViewCell.swift */,
+				A018686D27AEC58B004B2A25 /* PortfolioTableViewCell.xib */,
+			);
+			path = PortfolioTableViewCell;
+			sourceTree = "<group>";
+		};
 		A059242727AE792F00F6E609 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +191,8 @@
 				A059244C27AE793500F6E609 /* NeoPortfolioTests */,
 				A059245627AE793500F6E609 /* NeoPortfolioUITests */,
 				A059243127AE792F00F6E609 /* Products */,
+				B1E2FFAFAFAFF6C8AA5DB09B /* Pods */,
+				4DE2AFF81D565FCFE45042E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +209,13 @@
 		A059243227AE792F00F6E609 /* NeoPortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				A059243327AE792F00F6E609 /* AppDelegate.swift */,
-				A059243527AE792F00F6E609 /* SceneDelegate.swift */,
-				A059243727AE792F00F6E609 /* ViewController.swift */,
-				A059243927AE792F00F6E609 /* Main.storyboard */,
-				A059243F27AE793400F6E609 /* Assets.xcassets */,
-				A059244127AE793400F6E609 /* LaunchScreen.storyboard */,
-				A059244427AE793400F6E609 /* Info.plist */,
+				A0D4EE4927AFFDAF00E07FDA /* Realm */,
+				A05924B127AEB75100F6E609 /* Helpers */,
+				A059248027AEA72100F6E609 /* Models */,
+				A059246A27AEA72100F6E609 /* Networking */,
+				A059247E27AEA72100F6E609 /* Utilities */,
+				A059246727AE79FE00F6E609 /* UI */,
+				A059246627AE79C200F6E609 /* Application */,
 				A059243C27AE792F00F6E609 /* NeoPortfolio.xcdatamodeld */,
 			);
 			path = NeoPortfolio;
@@ -130,6 +238,190 @@
 			path = NeoPortfolioUITests;
 			sourceTree = "<group>";
 		};
+		A059246627AE79C200F6E609 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A059244427AE793400F6E609 /* Info.plist */,
+				A059243F27AE793400F6E609 /* Assets.xcassets */,
+				A059243327AE792F00F6E609 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A059246727AE79FE00F6E609 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A05924B927AEBA3600F6E609 /* Base */,
+				A05924B627AEBA3500F6E609 /* Navigation */,
+				A059246927AE7A3800F6E609 /* Pages */,
+				A059246827AE7A2500F6E609 /* StoryBoards */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A059246827AE7A2500F6E609 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A059243927AE792F00F6E609 /* Main.storyboard */,
+				A059244127AE793400F6E609 /* LaunchScreen.storyboard */,
+				A0DA05B527AEDEE600AD99AA /* Options.storyboard */,
+				A0D4EE4227AFC13500E07FDA /* Education.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		A059246927AE7A3800F6E609 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				A0D4EE3D27AFBF5C00E07FDA /* Education */,
+				A0DA05B027AEDBA700AD99AA /* Options */,
+				A05924C427AEBDC800F6E609 /* Protfolio */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		A059246A27AEA72100F6E609 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A059246B27AEA72100F6E609 /* Service */,
+				A0D4EE4D27B0025900E07FDA /* NetworkServicesManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A059246B27AEA72100F6E609 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A059246D27AEA72100F6E609 /* APIS */,
+				A059247727AEA72100F6E609 /* ServiceLayer.swift */,
+				A059247827AEA72100F6E609 /* URLRequestBuilder.swift */,
+				A059247927AEA72100F6E609 /* APIManager.swift */,
+				A059247B27AEA72100F6E609 /* RequestInterceptor.swift */,
+				A059247C27AEA72100F6E609 /* NetworkLogger.swift */,
+				A059247D27AEA72100F6E609 /* NetworkReachability.swift */,
+				A05924AF27AEB5A000F6E609 /* Domain.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A059246D27AEA72100F6E609 /* APIS */ = {
+			isa = PBXGroup;
+			children = (
+				A059246E27AEA72100F6E609 /* PortfolioAPI.swift */,
+			);
+			path = APIS;
+			sourceTree = "<group>";
+		};
+		A059247E27AEA72100F6E609 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A059247F27AEA72100F6E609 /* Box.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A059248027AEA72100F6E609 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A059248A27AEA72100F6E609 /* OptionsModel.swift */,
+				A05924C927AEBF7700F6E609 /* PortfolioModel.swift */,
+				A0D4EE4427AFE8C100E07FDA /* HistoricalModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A05924B127AEB75100F6E609 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A018687027AEC7F4004B2A25 /* UIViewExtension.swift */,
+				A05924B227AEB76D00F6E609 /* NotificationNames.swift */,
+				A05924B427AEB7C600F6E609 /* UIApplicationExtension.swift */,
+				A05924C227AEBD1D00F6E609 /* WindowHelper.swift */,
+				A0D4EE4627AFF49A00E07FDA /* DateHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A05924B627AEBA3500F6E609 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A05924B727AEBA3500F6E609 /* ScreenLoader.swift */,
+				A05924B827AEBA3600F6E609 /* Storyboarded.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A05924B927AEBA3600F6E609 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A05924BA27AEBA3600F6E609 /* BaseViewController.swift */,
+				A05924BB27AEBA3600F6E609 /* AppColors.swift */,
+				A05924BC27AEBA3600F6E609 /* BaseVM.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A05924C427AEBDC800F6E609 /* Protfolio */ = {
+			isa = PBXGroup;
+			children = (
+				A018686B27AEC55C004B2A25 /* PortfolioTableViewCell */,
+				A05924C527AEBDDD00F6E609 /* PortfolioViewController.swift */,
+				A05924C727AEBE2700F6E609 /* PortfolioVM.swift */,
+			);
+			path = Protfolio;
+			sourceTree = "<group>";
+		};
+		A0D4EE3D27AFBF5C00E07FDA /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				A0D4EE3E27AFBF7800E07FDA /* EducationViewController.swift */,
+				A0D4EE4027AFBF8500E07FDA /* EducationVM.swift */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		A0D4EE4927AFFDAF00E07FDA /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				A0D4EE4A27AFFFA000E07FDA /* PortfolioRealmHelper.swift */,
+				A0D4EE4F27B00FDA00E07FDA /* OptionsRealmHelper.swift */,
+				A0D4EE5127B010CA00E07FDA /* HistoricalRealmHelper.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		A0DA05B027AEDBA700AD99AA /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA05B727AF163D00AD99AA /* OptionCollectionViewCell */,
+				A0DA05B127AEDBC400AD99AA /* OptionsViewController.swift */,
+				A0DA05B327AEDC3A00AD99AA /* OptionsVM.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		A0DA05B727AF163D00AD99AA /* OptionCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A0DA05B827AF166300AD99AA /* OptionCollectionViewCell.swift */,
+				A0DA05B927AF166300AD99AA /* OptionCollectionViewCell.xib */,
+			);
+			path = OptionCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B1E2FFAFAFAFF6C8AA5DB09B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A5F054BCAAFFF1453FCCB11 /* Pods-NeoPortfolio.debug.xcconfig */,
+				88E99E7417F725D05DF3E081 /* Pods-NeoPortfolio.release.xcconfig */,
+				8502F575C2AF4259BD07C66C /* Pods-NeoPortfolio-NeoPortfolioUITests.debug.xcconfig */,
+				4F36724BB51B0E8686673167 /* Pods-NeoPortfolio-NeoPortfolioUITests.release.xcconfig */,
+				F81B929FA6E38332BF60D0B4 /* Pods-NeoPortfolioTests.debug.xcconfig */,
+				596EC192E0B0CE5A2C5F13BE /* Pods-NeoPortfolioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +429,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A059245D27AE793500F6E609 /* Build configuration list for PBXNativeTarget "NeoPortfolio" */;
 			buildPhases = (
+				64D324EA08ABFB0711F21CEA /* [CP] Check Pods Manifest.lock */,
 				A059242C27AE792F00F6E609 /* Sources */,
 				A059242D27AE792F00F6E609 /* Frameworks */,
 				A059242E27AE792F00F6E609 /* Resources */,
+				195F3AD99D3E2B9AA4D3EE49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +448,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A059246027AE793500F6E609 /* Build configuration list for PBXNativeTarget "NeoPortfolioTests" */;
 			buildPhases = (
+				58AEF65F13BFB21BA868DBC1 /* [CP] Check Pods Manifest.lock */,
 				A059244527AE793500F6E609 /* Sources */,
 				A059244627AE793500F6E609 /* Frameworks */,
 				A059244727AE793500F6E609 /* Resources */,
@@ -172,9 +467,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A059246327AE793500F6E609 /* Build configuration list for PBXNativeTarget "NeoPortfolioUITests" */;
 			buildPhases = (
+				788821234AF94375B321CF0D /* [CP] Check Pods Manifest.lock */,
 				A059244F27AE793500F6E609 /* Sources */,
 				A059245027AE793500F6E609 /* Frameworks */,
 				A059245127AE793500F6E609 /* Resources */,
+				C2BEAEDD2DE54CD1C6F06A57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +531,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A018686F27AEC58B004B2A25 /* PortfolioTableViewCell.xib in Resources */,
+				A0DA05BB27AF166300AD99AA /* OptionCollectionViewCell.xib in Resources */,
+				A0D4EE4327AFC13500E07FDA /* Education.storyboard in Resources */,
+				A0DA05B627AEDEE600AD99AA /* Options.storyboard in Resources */,
 				A059244327AE793400F6E609 /* LaunchScreen.storyboard in Resources */,
 				A059244027AE793400F6E609 /* Assets.xcassets in Resources */,
 				A059243B27AE792F00F6E609 /* Main.storyboard in Resources */,
@@ -256,15 +557,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		195F3AD99D3E2B9AA4D3EE49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoPortfolio/Pods-NeoPortfolio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoPortfolio/Pods-NeoPortfolio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoPortfolio/Pods-NeoPortfolio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58AEF65F13BFB21BA868DBC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoPortfolioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64D324EA08ABFB0711F21CEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoPortfolio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		788821234AF94375B321CF0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoPortfolio-NeoPortfolioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2BEAEDD2DE54CD1C6F06A57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoPortfolio-NeoPortfolioUITests/Pods-NeoPortfolio-NeoPortfolioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoPortfolio-NeoPortfolioUITests/Pods-NeoPortfolio-NeoPortfolioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoPortfolio-NeoPortfolioUITests/Pods-NeoPortfolio-NeoPortfolioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A059242C27AE792F00F6E609 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A059243827AE792F00F6E609 /* ViewController.swift in Sources */,
+				A059249E27AEA72100F6E609 /* NetworkLogger.swift in Sources */,
+				A059249F27AEA72100F6E609 /* NetworkReachability.swift in Sources */,
+				A059249027AEA72100F6E609 /* PortfolioAPI.swift in Sources */,
+				A05924A027AEA72100F6E609 /* Box.swift in Sources */,
+				A05924C327AEBD1D00F6E609 /* WindowHelper.swift in Sources */,
+				A05924BF27AEBA3600F6E609 /* BaseViewController.swift in Sources */,
+				A05924CA27AEBF7700F6E609 /* PortfolioModel.swift in Sources */,
 				A059243E27AE792F00F6E609 /* NeoPortfolio.xcdatamodeld in Sources */,
+				A0D4EE4527AFE8C100E07FDA /* HistoricalModel.swift in Sources */,
+				A0D4EE4727AFF49A00E07FDA /* DateHelper.swift in Sources */,
+				A059249A27AEA72100F6E609 /* URLRequestBuilder.swift in Sources */,
+				A0D4EE4127AFBF8500E07FDA /* EducationVM.swift in Sources */,
 				A059243427AE792F00F6E609 /* AppDelegate.swift in Sources */,
-				A059243627AE792F00F6E609 /* SceneDelegate.swift in Sources */,
+				A05924C627AEBDDD00F6E609 /* PortfolioViewController.swift in Sources */,
+				A059249927AEA72100F6E609 /* ServiceLayer.swift in Sources */,
+				A059249B27AEA72100F6E609 /* APIManager.swift in Sources */,
+				A05924C827AEBE2700F6E609 /* PortfolioVM.swift in Sources */,
+				A05924B027AEB5A000F6E609 /* Domain.swift in Sources */,
+				A05924B527AEB7C600F6E609 /* UIApplicationExtension.swift in Sources */,
+				A018686E27AEC58B004B2A25 /* PortfolioTableViewCell.swift in Sources */,
+				A05924AA27AEA72100F6E609 /* OptionsModel.swift in Sources */,
+				A0D4EE5227B010CA00E07FDA /* HistoricalRealmHelper.swift in Sources */,
+				A05924C127AEBA3600F6E609 /* BaseVM.swift in Sources */,
+				A05924B327AEB76D00F6E609 /* NotificationNames.swift in Sources */,
+				A0D4EE5027B00FDA00E07FDA /* OptionsRealmHelper.swift in Sources */,
+				A0DA05B427AEDC3A00AD99AA /* OptionsVM.swift in Sources */,
+				A018687127AEC7F4004B2A25 /* UIViewExtension.swift in Sources */,
+				A0DA05B227AEDBC400AD99AA /* OptionsViewController.swift in Sources */,
+				A05924BD27AEBA3600F6E609 /* ScreenLoader.swift in Sources */,
+				A05924C027AEBA3600F6E609 /* AppColors.swift in Sources */,
+				A0D4EE4E27B0025900E07FDA /* NetworkServicesManager.swift in Sources */,
+				A0D4EE3F27AFBF7800E07FDA /* EducationViewController.swift in Sources */,
+				A0D4EE4B27AFFFA000E07FDA /* PortfolioRealmHelper.swift in Sources */,
+				A0DA05BA27AF166300AD99AA /* OptionCollectionViewCell.swift in Sources */,
+				A05924BE27AEBA3600F6E609 /* Storyboarded.swift in Sources */,
+				A059249D27AEA72100F6E609 /* RequestInterceptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +874,7 @@
 		};
 		A059245E27AE793500F6E609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5F054BCAAFFF1453FCCB11 /* Pods-NeoPortfolio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,12 +882,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P455DLF3MK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NeoPortfolio/Info.plist;
+				INFOPLIST_FILE = NeoPortfolio/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,12 +899,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A059245F27AE793500F6E609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E99E7417F725D05DF3E081 /* Pods-NeoPortfolio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,12 +913,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P455DLF3MK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NeoPortfolio/Info.plist;
+				INFOPLIST_FILE = NeoPortfolio/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,12 +930,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		A059246127AE793500F6E609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81B929FA6E38332BF60D0B4 /* Pods-NeoPortfolioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +957,7 @@
 		};
 		A059246227AE793500F6E609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596EC192E0B0CE5A2C5F13BE /* Pods-NeoPortfolioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +978,7 @@
 		};
 		A059246427AE793500F6E609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8502F575C2AF4259BD07C66C /* Pods-NeoPortfolio-NeoPortfolioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +997,7 @@
 		};
 		A059246527AE793500F6E609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F36724BB51B0E8686673167 /* Pods-NeoPortfolio-NeoPortfolioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
